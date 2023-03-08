@@ -6,10 +6,10 @@ function merge(arr1, arr2) {
     while (i < arr1.length && j < arr2.length) {
         if (arr2[j] > arr1[i]) {
             results.push(arr1[i]);
-            i++
+            i++;
         } else {
             results.push(arr2[j]);
-            j++
+            j++;
         }
     }
 
@@ -31,7 +31,7 @@ function mergeSort(arr) {
     let mid = Math.floor(arr.length / 2);
     let left = mergeSort(arr.slice(0, mid));
     let right = mergeSort(arr.slice(mid));
-    return merge(left, right)
+    return merge(left, right);
 }
 
-console.log(mergeSort([123,531,623,13,23,56,23,236,23]));
+console.log(mergeSort([324,516,413,623,125,35,23]));
