@@ -33,5 +33,3 @@ function mergeSort(arr) {
     let right = mergeSort(arr.slice(mid));
     return merge(left, right);
 }
-
-console.log(mergeSort([2,6,1,6,3,8,2,89,2,8,2,7,4,87,4]));
