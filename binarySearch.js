@@ -7,4 +7,4 @@ function binarySearch(arr, target, first, last) {
 }
 
 let array = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-console.log(binarySearch(array, 6, 0, array.length - 1));
+console.log(binarySearch(array, 10, 0, array.length - 1));
